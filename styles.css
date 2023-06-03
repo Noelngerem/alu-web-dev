@@ -1,0 +1,329 @@
+* {
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*-----------HEADER SECTION---------*/
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 171.59px;
+    right: 171.59px;
+    height: 29.46px;
+    top: 35.02px;
+}
+header a {
+    padding-left: 20px;
+    color: #ffff;
+}
+main {
+    background: #ffff;
+}
+.get-schooled {
+    background: radial-gradient(85.9% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.5) 0%, #071629 100%), url('Images/background\ female\ smiling\ O.jpeg'), #000000;
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.get-schooled h1 {
+    color: #ffff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px;
+    padding-top: 10%;
+}
+.get-schooled #schooled p {
+    color: #ffff;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 20px;
+}
+.get-schooled #schooled button {
+    position: absolute;
+    margin-top: 3%;
+    left: 44.38%;
+    right: 44.38%;
+    border-radius: 25px;
+    padding: 3px;
+    height: 35px;
+    font-size: 12px;
+    background: #c271ff;
+    color: #ffff;
+    cursor: pointer;
+}
+.get-schooled #pros {
+    margin-left: 10.55%;
+    margin-right: 10.55%;
+}
+.get-schooled #pros h2 {
+    margin-top: 15%;
+    color: #ffff;
+    text-align: center;
+    font-weight: lighter;
+}
+.get-schooled #pros h2 span {
+    color: #c271ff;
+    font-weight: bold;
+}
+.get-schooled #pros-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.get-schooled #pros-info img {
+    border-radius: 50%;
+}
+.get-schooled #pros-info h3 {
+    color: #ffff;
+    text-align: center;
+}
+.get-schooled #pros-info p {
+    color: darkgray;
+    text-align: center;
+}
+/*-----------QUOTE SECTION----------*/
+.quote {
+    background: #c271ff;
+    width: 100%;
+    height: 330px;
+    left: -1px;
+    top: 1093px;
+}
+.quote #quote-container {
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 200px;
+}
+.quote #quote-container img {
+    border-radius: 50%;
+}
+.quote #quote-container #blockquote-text {
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+.quote #quote-container blockquote {
+    line-height: 30px;
+}
+.quote #quote-container #one {
+    padding-top: 35px;
+    font-weight: bold;
+}
+.quote #quote-container #two {
+    padding-top: 15px;
+    font-style: italic;
+}
+/*------------TUTORIALS SECTION------*/
+.tutorials {
+    background: #ffff;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.tutorials h1 {
+    color: gray;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 50px;
+    font-weight: lighter;
+}
+.tutorials h1 span {
+    color: #c271ff;
+}
+.tutorials #videos-box {
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tutorials #videos-box #box {
+    margin-left: 10px;
+}
+.tutorials #videos-box #box img {
+    width: 230px;
+    border-radius: 5px;
+}
+.tutorials #videos-box #box #play {
+    position: absolute;
+    width: 50px;
+    left: 17%;
+    margin-top: 3%;
+
+}
+.tutorials #videos-box h2 {
+    font-size: 20px;
+    color: #071629;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tutorials #videos-box p {
+    color: gray;
+    font-size: 16px;
+}
+.tutorials #videos-box #phil {
+    display: flex;
+    padding-top: 20px;
+}
+.tutorials #videos-box #phil img {
+    width: 35px;
+    border-radius: 50%;
+}
+.tutorials #videos-box #phil h3 {
+    color: #c271ff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.tutorials #videos-box #rating {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.tutorials #videos-box #rating p {
+    color: #c271ff;
+    font-size: 15px;
+    padding-left: 100px;
+}
+.tutorials #videos-box #star {
+    display: flex;
+}
+.tutorials #videos-box #star img {
+    width: 15px;
+}
+/*----------MEMBERSHIP SECTION--------*/
+.membership {
+    background: #071629;
+    width: 100%;
+    height: 500px;
+}
+.membership h1 {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 35.5px;
+    padding-top: 60px;
+    font-weight: lighter;
+}
+.membership h1 span {
+    color: #c271ff;
+    font-weight: bold;
+}
+.membership #membership-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.membership #membership-box {
+    margin-left: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.membership #membership-box h2 {
+    padding-bottom: 30px;
+}
+.membership #membership-box p {
+    line-height: 25px;
+}
+.membership button {
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    margin-top: 40px;
+    height: 40px;
+    background: #c271ff;
+    border-radius: 35px;
+    padding: 6px;
+    color: #ffff;
+    font-size: 12px;
+    cursor: pointer;
+}
+/*----------F.A.Q SECTION------------*/
+.faq {
+    width: 100%;
+    height: 707px;
+}
+.faq h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.faq #faq-container {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.faq h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.faq p {
+    line-height: 25px;
+    font-size: 15.5px;
+    color: darkgrey;
+}
+.faq #faq-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left:25px;
+    margin-right: 25px;
+}
+.faq #faq-1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.faq #faq-2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.faq #faq-box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+}
+.faq #faq-3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.faq #faq-4 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*----------FOOTER SECTION------------*/
+footer {
+    background: #071629;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+footer #container {
+    color: white;
+}
+footer #container p {
+    color: darkgray;
+    font-size: 16.5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+footer #icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
